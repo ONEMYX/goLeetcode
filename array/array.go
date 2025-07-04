@@ -8,6 +8,8 @@ func Main() {
 	//s := array.SearchInsert(test, 7)
 	//num := countBadPairs(test)
 	//fmt.Println(num)
-	test := []int{1, 3, 2, 3, 3}
-	countSubarrays(test, 2)
+	//test := []int{1, 3, 2, 3, 3}
+	//countSubarrays(test, 2)
+	test := []int{2, 3, -1, 8, 4}
+	findMiddleIndex(test)
 }
