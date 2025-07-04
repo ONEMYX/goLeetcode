@@ -1,6 +1,6 @@
 package array
 
-//  循环数组
+// 循环数组
 func RemoveElement(nums []int, val int) int {
 	j := 0
 	for _, v := range nums {
