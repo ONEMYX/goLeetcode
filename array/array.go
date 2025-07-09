@@ -11,7 +11,8 @@ func Main() {
 	//test := []int{1, 3, 2, 3, 3}
 	//countSubarrays(test, 2)
 	//test := []int{2, 3, -1, 8, 4}
-	//test := []int{3, 0, 8, 2, 0, 0, 1}
-	test := []int{2, 3, 1, 1, 4}
-	jump(test)
+	test := []int{3, 0, 8, 2, 0, 0, 1}
+	//test := []int{3, 0, 6, 1, 5}
+	//test := []int{1, 1, 3}
+	hIndex(test)
 }
