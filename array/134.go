@@ -1,7 +1,7 @@
 package array
 
 // gas = [1,2,3,4,5], cost = [3,4,5,1,2]
-// gas 加的油  cost 到达需要的油
+// gas 加的油  cost 到达需要的油。
 func canCompleteCircuit(gas []int, cost []int) int {
 	length := len(gas)
 	for i := 0; i < length; i++ {
