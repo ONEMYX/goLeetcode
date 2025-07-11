@@ -15,9 +15,11 @@ func Main() {
 	//test := []int{3, 0, 6, 1, 5}
 	//test := []int{1, 1, 3}
 	// gas = [1,2,3,4,5], cost = [3,4,5,1,2]
-	gas := []int{1, 2, 3, 4, 5}
-	cost := []int{3, 4, 5, 1, 2}
-	//gas := []int{2, 3, 4}
-	//cost := []int{3, 4, 3}
-	canCompleteCircuit(gas, cost)
+	//gas := []int{1, 2, 3, 4, 5}
+	//cost := []int{3, 4, 5, 1, 2}
+	//gas := []int{5, 1, 2, 3, 4}
+	//cost := []int{4, 4, 1, 5, 1}
+	gas := []int{2, 3, 4}
+	cost := []int{3, 4, 3}
+	canCompleteCircuit2(gas, cost)
 }
