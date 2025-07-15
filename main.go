@@ -1,11 +1,11 @@
 package main
 
 import (
-	"awesomeProject/str"
+	"awesomeProject/array"
 )
 
 func main() {
-	//array.Main()
+	array.Main()
 	//backtracking.Main()
-	str.Main()
+	//str.Main()
 }

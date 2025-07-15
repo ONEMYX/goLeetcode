@@ -19,7 +19,9 @@ func Main() {
 	//cost := []int{3, 4, 5, 1, 2}
 	//gas := []int{5, 1, 2, 3, 4}
 	//cost := []int{4, 4, 1, 5, 1}
-	gas := []int{2, 3, 4}
-	cost := []int{3, 4, 3}
-	canCompleteCircuit2(gas, cost)
+	//gas := []int{2, 3, 4}
+	//cost := []int{3, 4, 3}
+	//canCompleteCircuit2(gas, cost)
+	test := []int{2, 3, 1, 2, 4, 3}
+	minSubArrayLen(3, test)
 }
