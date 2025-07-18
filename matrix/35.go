@@ -1,4 +1,4 @@
-package array
+package matrix
 
 // 二分查找 没有找到返回int
 func SearchInsert(nums []int, target int) int {
