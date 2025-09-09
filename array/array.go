@@ -22,6 +22,7 @@ func Main() {
 	//gas := []int{2, 3, 4}
 	//cost := []int{3, 4, 3}
 	//canCompleteCircuit2(gas, cost)
-	test := []int{1, 2, 3, 4, 5}
-	minSubArrayLen(11, test)
+	//test := []int{1, 2, 3, 4, 5}
+	//minSubArrayLen(11, test)
+	UniquPathswitchObstaclesTest()
 }
