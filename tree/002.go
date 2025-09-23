@@ -1,4 +1,4 @@
-package main
+package tree
 
 /**
  * Definition for singly-linked list.
@@ -34,4 +34,19 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		carry = (n1 + n2 + carry) / 10
 	}
 	return head.Next
+}
+
+func reverseList(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
+	pre := new(ListNode)
+	cur := head
+	for cur != nil {
+		next := cur.Next
+		cur.Next = pre
+		pre = cur
+		cur = next
+	}
+	return pre
 }

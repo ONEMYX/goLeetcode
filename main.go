@@ -1,8 +1,6 @@
 package main
 
-import (
-	"awesomeProject/array"
-)
+import "awesomeProject/array"
 
 func main() {
 	array.Main()
