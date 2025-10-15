@@ -1,5 +1,7 @@
 package array
 
+import "fmt"
+
 func Main() {
 	//test := []int{1, 2, 3, 4, 5, 6, 7}
 	//test := []int{1, 2, 3, 4, 5}
@@ -24,5 +26,10 @@ func Main() {
 	//canCompleteCircuit2(gas, cost)
 	//test := []int{1, 2, 3, 4, 5}
 	//minSubArrayLen(11, test)
-	UniquPathswitchObstaclesTest()
+	//UniquPathswitchObstaclesTest()
+	//2,5,7,8,9,2,3,4,3,1
+	//test := []int{2, 5, 7, 8, 9, 2, 3, 4, 3, 1}
+	test := []int{-15, 19}
+	ans := maxIncreasingSubarrays(test)
+	fmt.Println(ans)
 }
