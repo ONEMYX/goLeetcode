@@ -8,8 +8,8 @@ func main() {
 	array.Main()
 	//backtracking.Main()
 	//str.Main()
-	list := generateList([]int{1, 2})
-	removeNthFromEnd(list, 2)
+	//list := generateList([]int{1, 2})
+	//removeNthFromEnd(list, 2)
 
 }
 

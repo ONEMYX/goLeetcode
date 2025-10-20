@@ -29,7 +29,13 @@ func Main() {
 	//UniquPathswitchObstaclesTest()
 	//2,5,7,8,9,2,3,4,3,1
 	//test := []int{2, 5, 7, 8, 9, 2, 3, 4, 3, 1}
-	test := []int{-15, 19}
-	ans := maxIncreasingSubarrays(test)
+	//test := []int{-15, 19}
+	//ans := maxIncreasingSubarrays(test)
+	//fmt.Println(ans)
+	//test := []int{1, -10, 7, 13, 6, 8}
+	//[3,0,3,2,4,2,1,1,0,4]
+	test := []int{3, 0, 3, 2, 4, 2, 1, 1, 0, 4}
+	//test := []int{0, -5}
+	ans := findSmallestInteger(test, 4)
 	fmt.Println(ans)
 }
